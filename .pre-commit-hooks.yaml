@@ -1,7 +1,7 @@
 - id: golang-check-coverage
   name: golang-check-coverage
   description: Run Go test coverage and enforce a minimum coverage per package.
-  entry: check-coverage
+  entry: ./check-coverage
   types: [go]
   language: golang
   pass_filenames: false
